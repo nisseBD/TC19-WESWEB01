@@ -11,6 +11,11 @@
 <body>
     <h1>HEJ PÅ DIG!</h1>
 
+    <form action="/" method="post">
+        <input type="text" name="firstName">
+        <button type="submit">Skicka</button>
+    </form>
+
     <% for( let i=0; i < names.length; i++ ) { %>
         <p>
             <%= names[i] %>
